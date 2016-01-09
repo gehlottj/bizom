@@ -1,9 +1,21 @@
+<style>
+select{
+width:20%;
+height:25px;	
+text-align:center;
+}
+.selectDiv{
+clear:both;	
+align-content:center;
+}
+
+</style>	
 <html>
  	<head>
  		
  		 <script type="text/javascript" src="jquery-1.11.2.min.js"></script>  
 
- 		 <title>JSon</title>
+ 		 <title>Claim List</title>
  		<script type="text/javascript">
  			var jsonData = new Object;
  			$(document).ready(function(){
@@ -108,20 +120,21 @@
  		</script>
 	</head>
 	<body>
-		<div id="div1">
+  
+<div class="dropdown" align="center">
+  <div class="dropdown-content">
+		<div id="div1" class="selectDiv">
 			
 		</div>
 
-		<div id="div2">
+		<div id="div2" class="selectDiv">
 			
 		</div>
 
-		<div id="div3">
+		<div id="div3" class="selectDiv">
 			
 		</div>
-        <div id="div3">
-			
-		</div>
-
+</div>
+</div>
 	</body>
 </html>
