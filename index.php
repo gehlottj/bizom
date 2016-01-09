@@ -30,7 +30,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<title>Mobisy</title>
 
 <div class="mainDiv" align="center">
 <a class="greenButtonRound" href="flowers.php">Flowers Assignment</a>
